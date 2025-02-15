@@ -62,7 +62,7 @@ This project is open-source and available under the MIT License.
 
 LinkedIn: Akshat Srivastav
 
-GitHub: @yourusername
+GitHub: @akshatsri13
 
 Email: srivastavaakshat022@gmail.com
 
