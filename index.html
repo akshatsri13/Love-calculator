@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator ❤︎❤︎</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+            <h1>💖 Love Calculator 💖</h1>
+            <p>Find out your love compatibility!</p>
+            
+            <div class="input-section">
+                <input type="text" id="name1" placeholder="Enter First Name" required>
+                <input type="text" id="name2" placeholder="Enter Second Name" required>
+                <button onclick="calculateLove()">Calculate Love 💘</button>
+            </div>
+            
+            <div id="result" class="hidden">
+                <h2>Love Percentage: <span id="percentage"></span>%</h2>
+                <div class="progress-bar">
+                    <div id="progress" class="progress"></div>
+                </div>
+                <p id="message"></p>
+                <img id="loveGif" class="hidden" src="" alt="Love GIF">
+                <p id="loveQuote"></p>
+            </div>
+        </div>
+    </div>
+    </body>
+    </html>
